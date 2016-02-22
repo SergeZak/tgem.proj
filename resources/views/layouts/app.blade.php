@@ -39,7 +39,7 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('/css/colors/yellow.css') }}" title="yellow" media="screen" />
 
      {{--Custom .css file--}}
-    {{--<link href="{{ asset('/css/app.css') }}" rel="stylesheet">--}}
+    <link href="{{ asset('/css/app.css') }}" rel="stylesheet">
 
     <!-- Margo JS  -->
     <script type="text/javascript" src="{{ asset('/js/jquery-2.1.4.min.js') }}"></script>
@@ -85,11 +85,11 @@
                     <div class="col-md-7">
                         <!-- Start Contact Info -->
                         <ul class="contact-details">
-                            <li><a href="#"><i class="fa fa-map-marker"></i> House-54/A, London, UK</a>
+                            <li><a href="#"><i class="fa fa-map-marker"></i> 92, Lenina av, Zaporizhzhya, Ukraine</a>
                             </li>
-                            <li><a href="#"><i class="fa fa-envelope-o"></i> info@yourcompany.com</a>
+                            <li><a href="#"><i class="fa fa-envelope-o"></i> driller@outlook.com</a>
                             </li>
-                            <li><a href="#"><i class="fa fa-phone"></i> +12 345 678 000</a>
+                            <li><a href="#"><i class="fa fa-phone"></i> +38 098 030 8599</a>
                             </li>
                         </ul>
                         <!-- End Contact Info -->
@@ -100,6 +100,9 @@
                         <ul class="social-list">
                             <li>
                                 <a class="facebook itl-tooltip" data-placement="bottom" title="Facebook" href="#"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a class="facebook itl-tooltip" data-placement="bottom" title="vKontakte" href="#"><i class="fa fa-vk"></i></a>
                             </li>
                             <li>
                                 <a class="twitter itl-tooltip" data-placement="bottom" title="Twitter" href="#"><i class="fa fa-twitter"></i></a>
@@ -151,7 +154,7 @@
                     </button>
                     <!-- End Toggle Nav Link For Mobiles -->
                     <a class="navbar-brand" href="index.html">
-                        <img alt="" src="{{ asset('/images/margo.png') }}">
+                        <img alt="" src="{{ asset('/images/tgem.png') }}">
                     </a>
                 </div>
                 <div class="navbar-collapse collapse">

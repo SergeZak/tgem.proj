@@ -20,10 +20,10 @@
                     <img class="img-responsive" src="{{ asset('/images/slider/bg1.jpg') }}" alt="slider">
                     <div class="slider-content">
                         <div class="col-md-12 text-center">
-                            <h2 class="animated2">
-                                <span>Welcome to <strong>Margo</strong></span>
+                            <h2 class="animated2 white">
+                                <span>Welcome to <strong>Tgem</strong></span>
                             </h2>
-                            <h3 class="animated3">
+                            <h3 class="animated3 white">
                                 <span>The ultimate aim of your business</span>
                             </h3>
                             <p class="animated4"><a href="#" class="slider btn btn-system btn-large">Check Now</a>
@@ -36,10 +36,10 @@
                     <img class="img-responsive" src="{{ asset('/images/slider/bg2.jpg') }}" alt="slider">
                     <div class="slider-content">
                         <div class="col-md-12 text-center">
-                            <h2 class="animated4">
-                                <span><strong>Margo</strong> for the highest</span>
+                            <h2 class="animated4 white">
+                                <span><strong>Tgem</strong> for the highest</span>
                             </h2>
-                            <h3 class="animated5">
+                            <h3 class="animated5 white">
                                 <span>The Key of your Success</span>
                             </h3>
                             <p class="animated6"><a href="#" class="slider btn btn-system btn-large">Buy Now</a>
@@ -53,7 +53,7 @@
                     <div class="slider-content">
                         <div class="col-md-12 text-center">
                             <h2 class="animated7 white">
-                                <span>The way of <strong>Success</strong></span>
+                                <span><strong>TGEM</strong> is The way of <strong>your Success</strong></span>
                             </h2>
                             <h3 class="animated8 white">
                                 <span>Why you are waiting</span>
@@ -207,7 +207,7 @@
                             <span>Cool</span>
                             <span>Great</span>
                           </span>
-                    Margo Template is Ready for <br/>Business, Agency <strong>or</strong> Creative Portfolios
+                    <span class="tgem-red">TGEM Solutions</span> are Ready for <br/>Business, Agency <strong>or</strong> Creative Portfolios
                 </h1>
                 <!-- End Animations Text -->
 
@@ -243,111 +243,111 @@
             <li>
                 <img src="{{ asset('/images/portfolio-1/1.png') }}" alt="" />
                 <div class="portfolio-item-content">
-                    <span class="header">Town winter 2013</span>
-                    <p class="body">web develpment, design</p>
+                    <span class="header">Make Up</span>
+                    <p class="body">Cosmetic online store </p>
                 </div>
-                <a href="#"><i class="more">+</i></a>
+                <a href="http://makeup-club.com.ua/" target="_blank"><i class="more">+</i></a>
 
             </li>
             <li>
                 <img src="{{ asset('/images/portfolio-1/2.png') }}" alt="" />
                 <div class="portfolio-item-content">
-                    <span class="header">Quarterly Musashino</span>
-                    <p class="body">web develpment, design</p>
+                    <span class="header">Victoriia Z</span>
+                    <p class="body">Photographer web studio</p>
                 </div>
-                <a href="#"><i class="more">+</i></a>
+                <a href="http://victoriiaz.com/" target="_blank"><i class="more">+</i></a>
 
             </li>
             <li>
                 <img src="{{ asset('/images/portfolio-1/3.png') }}" alt="" />
                 <div class="portfolio-item-content">
-                    <span class="header">Mainichi April 2014</span>
-                    <p class="body">web develpment, design</p>
+                    <span class="header">Gring Ring</span>
+                    <p class="body">Online garden market</p>
                 </div>
-                <a href="#"><i class="more">+</i></a>
+                <a href="http://zelenoekolco.tgem.com.ua/" target="_blank"><i class="more">+</i></a>
 
             </li>
             <li>
                 <img src="{{ asset('/images/portfolio-1/4.png') }}" alt="" />
                 <div class="portfolio-item-content">
-                    <span class="header">Shitamachi Rocket</span>
-                    <p class="body">web develpment, design</p>
+                    <span class="header">Interior Center</span>
+                    <p class="body">Interior center web-site</p>
                 </div>
-                <a href="#"><i class="more">+</i></a>
+                <a href="http://www.salon-ic.com.ua/" target="_blank"><i class="more">+</i></a>
 
             </li>
-            <li>
-                <img src="{{ asset('/images/portfolio-1/5.png') }}" alt="" />
-                <div class="portfolio-item-content">
-                    <span class="header">Majesty express vol. 01</span>
-                    <p class="body">web develpment, design</p>
-                </div>
-                <a href="#"><i class="more">+</i></a>
+            {{--<li>--}}
+                {{--<img src="{{ asset('/images/portfolio-1/5.png') }}" alt="" />--}}
+                {{--<div class="portfolio-item-content">--}}
+                    {{--<span class="header">Majesty express vol. 01</span>--}}
+                    {{--<p class="body">web develpment, design</p>--}}
+                {{--</div>--}}
+                {{--<a href="#"><i class="more">+</i></a>--}}
 
-            </li>
-            <li>
-                <img src="{{ asset('/images/portfolio-1/6.png') }}" alt="" />
-                <div class="portfolio-item-content">
-                    <span class="header">Monocle issue 69</span>
-                    <p class="body">web develpment, design</p>
-                </div>
-                <a href="#"><i class="more">+</i></a>
+            {{--</li>--}}
+            {{--<li>--}}
+                {{--<img src="{{ asset('/images/portfolio-1/6.png') }}" alt="" />--}}
+                {{--<div class="portfolio-item-content">--}}
+                    {{--<span class="header">Monocle issue 69</span>--}}
+                    {{--<p class="body">web develpment, design</p>--}}
+                {{--</div>--}}
+                {{--<a href="#"><i class="more">+</i></a>--}}
 
-            </li>
-            <li>
-                <img src="{{ asset('/images/portfolio-1/7.png') }}" alt="" />
-                <div class="portfolio-item-content">
-                    <span class="header">Monocle issue 69</span>
-                    <p class="body">web develpment, design</p>
-                </div>
-                <a href="#"><i class="more">+</i></a>
+            {{--</li>--}}
+            {{--<li>--}}
+                {{--<img src="{{ asset('/images/portfolio-1/7.png') }}" alt="" />--}}
+                {{--<div class="portfolio-item-content">--}}
+                    {{--<span class="header">Monocle issue 69</span>--}}
+                    {{--<p class="body">web develpment, design</p>--}}
+                {{--</div>--}}
+                {{--<a href="#"><i class="more">+</i></a>--}}
 
-            </li>
-            <li>
-                <img src="{{ asset('/images/portfolio-1/8.png') }}" alt="" />
-                <div class="portfolio-item-content">
-                    <span class="header">Monocle issue 69</span>
-                    <p class="body">web develpment, design</p>
-                </div>
-                <a href="#"><i class="more">+</i></a>
+            {{--</li>--}}
+            {{--<li>--}}
+                {{--<img src="{{ asset('/images/portfolio-1/8.png') }}" alt="" />--}}
+                {{--<div class="portfolio-item-content">--}}
+                    {{--<span class="header">Monocle issue 69</span>--}}
+                    {{--<p class="body">web develpment, design</p>--}}
+                {{--</div>--}}
+                {{--<a href="#"><i class="more">+</i></a>--}}
 
-            </li>
-            <li>
-                <img src="{{ asset('/images/portfolio-1/9.png') }}" alt="" />
-                <div class="portfolio-item-content">
-                    <span class="header">Monocle issue 69</span>
-                    <p class="body">web develpment, design</p>
-                </div>
-                <a href="#"><i class="more">+</i></a>
+            {{--</li>--}}
+            {{--<li>--}}
+                {{--<img src="{{ asset('/images/portfolio-1/9.png') }}" alt="" />--}}
+                {{--<div class="portfolio-item-content">--}}
+                    {{--<span class="header">Monocle issue 69</span>--}}
+                    {{--<p class="body">web develpment, design</p>--}}
+                {{--</div>--}}
+                {{--<a href="#"><i class="more">+</i></a>--}}
 
-            </li>
-            <li>
-                <img src="{{ asset('/images/portfolio-1/10.png') }}" alt="" />
-                <div class="portfolio-item-content">
-                    <span class="header">Monocle issue 69</span>
-                    <p class="body">web develpment, design</p>
-                </div>
-                <a href="#"><i class="more">+</i></a>
+            {{--</li>--}}
+            {{--<li>--}}
+                {{--<img src="{{ asset('/images/portfolio-1/10.png') }}" alt="" />--}}
+                {{--<div class="portfolio-item-content">--}}
+                    {{--<span class="header">Monocle issue 69</span>--}}
+                    {{--<p class="body">web develpment, design</p>--}}
+                {{--</div>--}}
+                {{--<a href="#"><i class="more">+</i></a>--}}
 
-            </li>
-            <li>
-                <img src="{{ asset('/images/portfolio-1/11.png') }}" alt="" />
-                <div class="portfolio-item-content">
-                    <span class="header">Monocle issue 69</span>
-                    <p class="body">web develpment, design</p>
-                </div>
-                <a href="#"><i class="more">+</i></a>
+            {{--</li>--}}
+            {{--<li>--}}
+                {{--<img src="{{ asset('/images/portfolio-1/11.png') }}" alt="" />--}}
+                {{--<div class="portfolio-item-content">--}}
+                    {{--<span class="header">Monocle issue 69</span>--}}
+                    {{--<p class="body">web develpment, design</p>--}}
+                {{--</div>--}}
+                {{--<a href="#"><i class="more">+</i></a>--}}
 
-            </li>
-            <li>
-                <img src="{{ asset('/images/portfolio-1/12.png') }}" alt="" />
-                <div class="portfolio-item-content">
-                    <span class="header">Monocle issue 69</span>
-                    <p class="body">web develpment, design</p>
-                </div>
-                <a href="#"><i class="more">+</i></a>
+            {{--</li>--}}
+            {{--<li>--}}
+                {{--<img src="{{ asset('/images/portfolio-1/12.png') }}" alt="" />--}}
+                {{--<div class="portfolio-item-content">--}}
+                    {{--<span class="header">Monocle issue 69</span>--}}
+                    {{--<p class="body">web develpment, design</p>--}}
+                {{--</div>--}}
+                {{--<a href="#"><i class="more">+</i></a>--}}
 
-            </li>
+            {{--</li>--}}
         </ul>
 
         <!-- End Recent Projects Carousel -->
