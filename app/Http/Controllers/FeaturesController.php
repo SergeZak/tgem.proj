@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
+use App\Models\Feature;
 
 class FeaturesController extends Controller
 {
@@ -16,7 +17,8 @@ class FeaturesController extends Controller
      */
     public function index()
     {
-        return view('admin.features.index');
+        $features = Feature::all();
+        return view('admin.features.index', compact('features'));
     }
 
     /**
