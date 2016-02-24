@@ -37,5 +37,6 @@ Route::group(
     ],
     function(){
         Route::get('/', ['as'=>'admin.main', 'uses'=>'AdminController@index']);
+        Route::resource('feature', 'FeaturesController');
     }
 );

@@ -204,13 +204,10 @@
                 <a href="{{ route('admin.main') }}" title="Dashboard"><i class="fa fa-lg fa-fw fa-home"></i> <span class="menu-item-parent">Dashboard</span></a>
             </li>
             <li>
-                <a href="inbox.html"><i class="fa fa-lg fa-fw fa-inbox"></i> <span class="menu-item-parent">Inbox</span><span class="badge pull-right inbox-badge">14</span></a>
-            </li>
-            <li>
-                <a href="#"><i class="fa fa-lg fa-fw fa-bar-chart-o"></i> <span class="menu-item-parent">Graphs</span></a>
+                <a href="#"><i class="fa fa-lg fa-fw fa-desktop"></i> <span class="menu-item-parent">Main Page</span></a>
                 <ul>
                     <li>
-                        <a href="flot.html">Flot Chart</a>
+                        <a href="{{ route('admin.feature.index') }}">Features</a>
                     </li>
                     <li>
                         <a href="morris.html">Morris Charts</a>
