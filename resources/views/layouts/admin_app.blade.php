@@ -17,24 +17,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
     <!-- Basic Styles -->
-    <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href=" {{ asset('/css/bootstrap.min.css') }}">
     <link rel="stylesheet" type="text/css" media="screen" href="//maxcdn.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.min.css">
 
     <!-- SmartAdmin Styles : Please note (smartadmin-production.css) was created using LESS variables -->
-    <link rel="stylesheet" type="text/css" media="screen" href="css/smartadmin-production.css">
+    <link rel="stylesheet" type="text/css" media="screen" href=" {{ asset('/css/smartadmin-production.css') }}">
 
     <!-- SmartAdmin RTL Support is under construction
-    <link rel="stylesheet" type="text/css" media="screen" href="css/smartadmin-rtl.css"> -->
+    <link rel="stylesheet" type="text/css" media="screen" href=" {{ asset('/css/smartadmin-rtl.css') }}"> -->
 
-    <!-- We recommend you use "your_style.css" to override SmartAdmin
+    <!-- We recommend you use "your_style.css') }}" to override SmartAdmin
     specific styles this will also ensure you retrain your customization
-    with each SmartAdmin update.
-    <link rel="stylesheet" type="text/css" media="screen" href="css/demo.css"> -->
+    with each SmartAdmin update.-->
 
     <!-- Demo purpose only: goes with demo.js, you can delete this css when designing your own WebApp -->
-    <link rel="stylesheet" type="text/css" media="screen" href="css/demo.css">
+    <link rel="stylesheet" type="text/css" media="screen" href=" {{ asset('/css/demo.css') }}">
 
-    <link rel="stylesheet" type="text/css" media="screen" href="css/admin_app.css">
+    <link rel="stylesheet" type="text/css" media="screen" href=" {{ asset('/css/admin_app.css') }}">
 
     <!-- FAVICONS -->
     <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
@@ -52,7 +51,7 @@
     <div id="logo-group">
 
         <!-- PLACE YOUR LOGO HERE -->
-        <span id="logo"> <img src="img/logo.png" alt="SmartAdmin"> </span>
+        <span id="logo"> <img src="{{ asset('/img/logo.png') }}" alt="SmartAdmin"> </span>
         <!-- END LOGO PLACEHOLDER -->
 
         <!-- Note: The activity badge color changes when clicked and resets the number to 0
@@ -160,16 +159,16 @@
         <!-- multiple lang dropdown : find all flags in the image folder -->
         <ul class="header-dropdown-list hidden-xs">
             <li>
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <img alt="" src="img/flags/us.png"> <span> US </span> <i class="fa fa-angle-down"></i> </a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <img alt="" src="{{ asset('/img/flags/us.png') }}"> <span> US </span> <i class="fa fa-angle-down"></i> </a>
                 <ul class="dropdown-menu pull-right">
                     <li class="active">
-                        <a href="javascript:void(0);"><img alt="" src="img/flags/us.png"> US</a>
+                        <a href="javascript:void(0);"><img alt="" src="{{ asset('/img/flags/us.png') }}"> US</a>
                     </li>
                     <li>
-                        <a href="javascript:void(0);"><img alt="" src="img/flags/es.png"> Spanish</a>
+                        <a href="javascript:void(0);"><img alt="" src="{{ asset('/img/flags/es.png') }}"> Spanish</a>
                     </li>
                     <li>
-                        <a href="javascript:void(0);"><img alt="" src="img/flags/de.png"> German</a>
+                        <a href="javascript:void(0);"><img alt="" src="{{ asset('/img/flags/de.png') }}"> German</a>
                     </li>
                 </ul>
             </li>
@@ -188,7 +187,7 @@
 
     <!-- User info -->
     <div class="login-info">
-        <span> <!-- User image size is adjusted inside CSS, it should stay as it --> <img src="img/avatars/sunny.png" alt="me" class="online" /> <a href="javascript:void(0);" id="show-shortcut">john.doe <i class="fa fa-angle-down"></i></a> </span>
+        <span> <!-- User image size is adjusted inside CSS, it should stay as it --> <img src="{{ asset('/img/avatars/sunny.png') }}" alt="me" class="online" /> <a href="javascript:void(0);" id="show-shortcut">john.doe <i class="fa fa-angle-down"></i></a> </span>
     </div>
     <!-- end user info -->
 
@@ -504,58 +503,58 @@ you can add as many as you like
 <!--================================================== -->
 
 <!-- PACE LOADER - turn this on if you want ajax loading to show (caution: uses lots of memory on iDevices)-->
-<script data-pace-options='{ "restartOnRequestAfter": true }' src="js/plugin/pace/pace.min.js"></script>
+<script data-pace-options='{ "restartOnRequestAfter": true }' src="{{ asset('/js/plugin/pace/pace.min.js') }}"></script>
 
 <!-- Link to Google CDN's jQuery + jQueryUI; fall back to local -->
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
 <script>
     if (!window.jQuery) {
-        document.write('<script src="js/libs/jquery-2.0.2.min.js"><\/script>');
+        document.write('<script src="{{ asset('/js/libs/jquery-2.0.2.min.js') }}"><\/script>');
     }
 </script>
 
 <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
 <script>
     if (!window.jQuery.ui) {
-        document.write('<script src="js/libs/jquery-ui-1.10.3.min.js"><\/script>');
+        document.write('<script src="{{ asset('/js/libs/jquery-ui-1.10.3.min.js') }}"><\/script>');
     }
 </script>
 
 <!-- JS TOUCH : include this plugin for mobile drag / drop touch events
-<script src="js/plugin/jquery-touch/jquery.ui.touch-punch.min.js"></script> -->
+<script src="{{ asset('/js/plugin/jquery-touch/jquery.ui.touch-punch.min.js') }}"></script> -->
 
 <!-- BOOTSTRAP JS -->
-<script src="js/bootstrap/bootstrap.min.js"></script>
+<script src="{{ asset('/js/bootstrap/bootstrap.min.js') }}"></script>
 
 <!-- CUSTOM NOTIFICATION -->
-<script src="js/notification/SmartNotification.min.js"></script>
+<script src="{{ asset('/js/notification/SmartNotification.min.js') }}"></script>
 
 <!-- JARVIS WIDGETS -->
-<script src="js/smartwidgets/jarvis.widget.min.js"></script>
+<script src="{{ asset('/js/smartwidgets/jarvis.widget.min.js') }}"></script>
 
 <!-- EASY PIE CHARTS -->
-<script src="js/plugin/easy-pie-chart/jquery.easy-pie-chart.min.js"></script>
+<script src="{{ asset('/js/plugin/easy-pie-chart/jquery.easy-pie-chart.min.js') }}"></script>
 
 <!-- SPARKLINES -->
-<script src="js/plugin/sparkline/jquery.sparkline.min.js"></script>
+<script src="{{ asset('/js/plugin/sparkline/jquery.sparkline.min.js') }}"></script>
 
 <!-- JQUERY VALIDATE -->
-<script src="js/plugin/jquery-validate/jquery.validate.min.js"></script>
+<script src="{{ asset('/js/plugin/jquery-validate/jquery.validate.min.js') }}"></script>
 
 <!-- JQUERY MASKED INPUT -->
-<script src="js/plugin/masked-input/jquery.maskedinput.min.js"></script>
+<script src="{{ asset('/js/plugin/masked-input/jquery.maskedinput.min.js') }}"></script>
 
 <!-- JQUERY SELECT2 INPUT -->
-<script src="js/plugin/select2/select2.min.js"></script>
+<script src="{{ asset('/js/plugin/select2/select2.min.js') }}"></script>
 
 <!-- JQUERY UI + Bootstrap Slider -->
-<script src="js/plugin/bootstrap-slider/bootstrap-slider.min.js"></script>
+<script src="{{ asset('/js/plugin/bootstrap-slider/bootstrap-slider.min.js') }}"></script>
 
 <!-- browser msie issue fix -->
-<script src="js/plugin/msie-fix/jquery.mb.browser.min.js"></script>
+<script src="{{ asset('/js/plugin/msie-fix/jquery.mb.browser.min.js') }}"></script>
 
 <!-- SmartClick: For mobile devices -->
-<script src="js/plugin/smartclick/smartclick.js"></script>
+<script src="{{ asset('/js/plugin/smartclick/smartclick.js') }}"></script>
 
 <!--[if IE 7]>
 
@@ -564,24 +563,24 @@ you can add as many as you like
 <![endif]-->
 
 <!-- Demo purpose only -->
-<script src="js/demo.js"></script>
+<script src="{{ asset('/js/demo.js') }}"></script>
 
 <!-- MAIN APP JS FILE -->
-<script src="js/app.js"></script>
+<script src="{{ asset('/js/app.js') }}"></script>
 
 <!-- PAGE RELATED PLUGIN(S) -->
 
 <!-- Flot Chart Plugin: Flot Engine, Flot Resizer, Flot Tooltip -->
-<script src="js/plugin/flot/jquery.flot.cust.js"></script>
-<script src="js/plugin/flot/jquery.flot.resize.js"></script>
-<script src="js/plugin/flot/jquery.flot.tooltip.js"></script>
+<script src="{{ asset('/js/plugin/flot/jquery.flot.cust.js') }}"></script>
+<script src="{{ asset('/js/plugin/flot/jquery.flot.resize.js') }}"></script>
+<script src="{{ asset('/js/plugin/flot/jquery.flot.tooltip.js') }}"></script>
 
 <!-- Vector Maps Plugin: Vectormap engine, Vectormap language -->
-<script src="js/plugin/vectormap/jquery-jvectormap-1.2.2.min.js"></script>
-<script src="js/plugin/vectormap/jquery-jvectormap-world-mill-en.js"></script>
+<script src="{{ asset('/js/plugin/vectormap/jquery-jvectormap-1.2.2.min.js') }}"></script>
+<script src="{{ asset('/js/plugin/vectormap/jquery-jvectormap-world-mill-en.js') }}"></script>
 
 <!-- Full Calendar -->
-<script src="js/plugin/fullcalendar/jquery.fullcalendar.min.js"></script>
+<script src="{{ asset('/js/plugin/fullcalendar/jquery.fullcalendar.min.js') }}"></script>
 
 <script>
     $(document).ready(function() {
